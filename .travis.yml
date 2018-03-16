@@ -7,3 +7,8 @@ install:
 
 after_success:
  - npm test
+
+deploy:
+  provider: heroku
+  api_key: 5e049dc0-1aa2-4725-986d-07a8848d9173
+  app: foo-car-cn
